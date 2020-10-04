@@ -5,16 +5,12 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 import ProdigiAdminRouter from './components/ProdigiAdminRouter';
+import Dashboard from './components/Dashboard';
 
 ReactDOM.render((
   <BrowserRouter>
     <Route path = "/" component = {ProdigiAdminRouter} />
-    { /*<Route path = "/home" component = {Dashboard} />
-    {/* <Route path = "merchant" component = {null} />
-    <Route path = "order" component = {null} />
-    <Route path = "invoice" component = {null} />
-    <Route path = "issue" component = {null} />
-    <Route path = "sku" component = {null} /> */}
+    <Route path = "/home" component = {Dashboard} />
   </BrowserRouter>
 ), document.getElementById('root'));
 
