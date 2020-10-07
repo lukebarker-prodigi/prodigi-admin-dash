@@ -13,13 +13,13 @@ export default class Dashboard extends React.Component {
   render() {
     return (
       <div>
-        <Row className="border border-dark">
-          <Col className="border border-dark" style={{ width: "50%" }}><Sales/></Col>
-          <Col className="border border-dark" style={{ width: "50%" }}><ProductionOrders/></Col>
+        <Row>
+          <Col style={{ width: "50%" }}><Sales/></Col>
+          <Col style={{ width: "50%" }}><ProductionOrders/></Col>
         </Row>
         <Row>
-          <Col className="border border-dark" style={{ width: "50%" }}><Actions/></Col>
-          <Col className="border border-dark" style={{ width: "50%" }}><ScheduledTasks/></Col>
+          <Col style={{ width: "50%" }}><Actions/></Col>
+          <Col style={{ width: "50%" }}><ScheduledTasks/></Col>
         </Row>
       </div>
     );
