@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
 import ProdigiAdminRouter from './components/ProdigiAdminRouter';
 import Dashboard from './components/Dashboard';

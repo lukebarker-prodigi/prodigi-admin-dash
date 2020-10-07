@@ -8,8 +8,8 @@ export default class ProductionOrders extends React.Component {
 
   render() {
     return (
-      <div style={{margin: "20px"}}>
-        <h4 style={{marginBottom: "20px"}}>
+      <div className="component">
+        <h4>
           <span>Production Orders</span>
         </h4>
         <Table bordered hover>
@@ -30,7 +30,7 @@ export default class ProductionOrders extends React.Component {
             <th>34</th>
           </tr>
         </Table>
-        <h4 style={{marginBottom: "20px"}}>
+        <h4>
           <span>Today's Top Stats</span>
         </h4>
         <Table bordered hover>

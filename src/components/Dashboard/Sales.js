@@ -22,8 +22,8 @@ export default class Sales extends React.Component {
 
   render() {
     return (
-      <div style={{margin: "20px"}}>
-        <h4 style={{marginBottom: "20px"}}>This Month's Sales</h4>
+      <div className="component">
+        <h4>This Month's Sales</h4>
         <ResponsiveContainer width="100%" height={500}>
           <BarChart data={data} margin={margin}>
             <XAxis dataKey="name" interval={0} orientation="bottom" height={90}>

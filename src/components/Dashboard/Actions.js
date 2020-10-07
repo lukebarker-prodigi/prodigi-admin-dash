@@ -8,8 +8,8 @@ export default class Actions extends React.Component {
 
   render() {
     return (
-      <div style={{margin: "20px"}}>
-        <h4 style={{marginBottom: "20px"}}>Actions</h4>
+      <div className="component">
+        <h4>Actions</h4>
         <Row>
           <Col><Button block variant="outline-info">Resubmit Errored Orders</Button></Col>
         </Row>

@@ -8,10 +8,10 @@ export default class ScheduledTasks extends React.Component {
 
   render() {
     return (
-      <div style={{margin: "20px"}}>
-        <h4 style={{marginBottom: "20px"}}>Scheduled Tasks</h4>
+      <div className="component">
+        <h4>Scheduled Tasks</h4>
         <h5>Queue Count: <span>3</span></h5>
-        <Table bordered hover style={{ display: "block", height: "256px", overflowY: "scroll" }}>
+        <Table className="needs-y-scroll" bordered hover style={{ height: "256px" }}>
           <thead>
             <tr>
               <th>Id</th>

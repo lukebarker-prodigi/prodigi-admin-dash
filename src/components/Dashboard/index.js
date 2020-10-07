@@ -12,7 +12,7 @@ export default class Dashboard extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class="page">
         <Row>
           <Col style={{ width: "50%" }}><Sales/></Col>
           <Col style={{ width: "50%" }}><ProductionOrders/></Col>

@@ -1,0 +1,16 @@
+div.component {
+  margin: 20px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+table.needs-y-scroll {
+  overflow-y: scroll;
+  display: block;
+}
+
+page {
+
+}
