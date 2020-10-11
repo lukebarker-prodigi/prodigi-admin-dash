@@ -7,11 +7,13 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import ProdigiAdminRouter from './components/ProdigiAdminRouter';
 import Dashboard from './components/Dashboard';
+import Merchants from './components/Merchants';
 
 ReactDOM.render((
   <BrowserRouter>
     <Route path = "/" component = {ProdigiAdminRouter} />
     <Route path = "/home" component = {Dashboard} />
+    <Route path = "/merchant" component = {Merchants} />
   </BrowserRouter>
 ), document.getElementById('root'));
 
