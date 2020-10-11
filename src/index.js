@@ -8,14 +8,16 @@ import * as serviceWorker from './serviceWorker';
 import {
   ProdigiAdminRouter,
   Dashboard,
-  Merchants
+  Merchants,
+  MerchantDetail
 } from './components';
 
 ReactDOM.render((
   <BrowserRouter>
     <Route path = "/" component = {ProdigiAdminRouter} />
-    <Route path = "/home" component = {Dashboard} />
-    <Route path = "/merchant" component = {Merchants} />
+    <Route path = "/home" exact component = {Dashboard} />
+    <Route path = "/merchant" exact component = {Merchants} />
+    <Route path = "/merchant/:id" exact component = {MerchantDetail} />
   </BrowserRouter>
 ), document.getElementById('root'));
 

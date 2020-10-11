@@ -1,5 +1,8 @@
 div.component {
   margin: 20px;
+  padding: 20px;
+  background-color: #e4e4e4;
+  border-radius: 24px;
 }
 
 h4 {
@@ -10,6 +13,15 @@ table.needs-y-scroll {
   overflow-y: scroll;
 }
 
-page {
+.page {
+  width: 100%;
+  height: fit-content;
+}
 
+.form-group-checkbox {
+  text-align: center;
+}
+
+input:read-only {
+  pointer-events: none;
 }
