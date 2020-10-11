@@ -18,8 +18,8 @@ export default class Dashboard extends React.Component {
           <Col style={{ width: "50%" }}><ProductionOrders/></Col>
         </Row>
         <Row>
-          <Col style={{ width: "50%" }}><Actions/></Col>
-          <Col style={{ width: "50%" }}><ScheduledTasks/></Col>
+          <Col style={{ width: "40%" }}><Actions/></Col>
+          <Col style={{ width: "60%" }}><ScheduledTasks/></Col>
         </Row>
       </div>
     );
