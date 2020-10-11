@@ -11,7 +11,7 @@ export default class MerchantsTable extends React.Component {
       <div className="component">
         <Table bordered hover className="needs-y-scroll">
           <thead>
-            <tr>
+            <tr class="table-primary">
               <th>Name</th>
               <th>Company</th>
               <th>Email</th>
@@ -20,7 +20,7 @@ export default class MerchantsTable extends React.Component {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr class="table-secondary">
               <td>John Smith</td>
               <td>Prodigi Group</td>
               <td>hello@example.com</td>
@@ -31,7 +31,7 @@ export default class MerchantsTable extends React.Component {
                 </svg>
               </td>
             </tr>
-            <tr>
+            <tr class="table-secondary">
               <td>John Smith</td>
               <td>Prodigi Group</td>
               <td>hello@example.com</td>
@@ -42,7 +42,7 @@ export default class MerchantsTable extends React.Component {
                 </svg>
               </td>
             </tr>
-            <tr>
+            <tr class="table-secondary">
               <td>John Smith</td>
               <td>Prodigi Group</td>
               <td>hello@example.com</td>
@@ -53,7 +53,7 @@ export default class MerchantsTable extends React.Component {
                 </svg>
               </td>
             </tr>
-            <tr>
+            <tr class="table-secondary">
               <td>John Smith</td>
               <td>Prodigi Group</td>
               <td>hello@example.com</td>
@@ -64,7 +64,7 @@ export default class MerchantsTable extends React.Component {
                 </svg>
               </td>
             </tr>
-            <tr>
+            <tr class="table-secondary">
               <td>John Smith</td>
               <td>Prodigi Group</td>
               <td>hello@example.com</td>
