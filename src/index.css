@@ -1,4 +1,5 @@
 div.component {
+  position: relative;
   margin: 20px;
   padding: 20px;
   background-color: #e4e4e4;
