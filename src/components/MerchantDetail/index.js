@@ -18,15 +18,19 @@ export default class MerchantDetail extends React.Component {
         <Row>
           <Col><AccountDetails /></Col>
         </Row>
+
         <Row>
           <Col><MerchantActions /></Col>
         </Row>
+
         <Row>
-          <Col>
-            <TransactionHistory />
-            <ProductDiscounts />
-          </Col>
+          <Col><TransactionHistory /></Col>
         </Row>
+
+        <Row>
+          <Col><ProductDiscounts /></Col>
+        </Row>
+        
         <Row>
           <Col><ShippingDiscounts /></Col>
         </Row>
