@@ -9,7 +9,7 @@ import {
   ProdigiAdminRouter,
   Dashboard,
   Merchants,
-  MerchantDetail
+  MerchantDetail, Orders
 } from './components';
 
 ReactDOM.render((
@@ -18,6 +18,7 @@ ReactDOM.render((
     <Route path = "/home" exact component = {Dashboard} />
     <Route path = "/merchant" exact component = {Merchants} />
     <Route path = "/merchant/:id" exact component = {MerchantDetail} />
+    <Route path = "/order" exact component = {Orders} />
   </BrowserRouter>
 ), document.getElementById('root'));
 
