@@ -20,7 +20,7 @@ export default class Actions extends React.Component {
           <Col><Button block variant="outline-info">Create Merchants on Netsuite</Button></Col>
         </Row>
         <Row>
-          <Col><Button block variant="outline-info">Load all Merchant Discount Prices</Button></Col>
+          <Col><Button block variant="outline-info">Load <strong>ALL</strong> Merchant Discount Prices</Button></Col>
         </Row>
       </div>
     );
