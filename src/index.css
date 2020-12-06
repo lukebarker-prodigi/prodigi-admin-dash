@@ -1,9 +1,23 @@
-div.component {
+body {
+  height: 100%;
+}
+
+div.page div.component {
   position: relative;
-  margin: 20px;
-  padding: 20px;
+  margin: 16px;
+  padding: 16px;
   background-color: #e4e4e4;
   border-radius: 24px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+div.page div.component div.sub-component {
+  position: relative;
+  margin: 12px;
+  padding: 12px;
+  background-color: #e4e4e4;
+  border-radius: 16px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 h4 {
@@ -15,8 +29,7 @@ table.needs-y-scroll {
 }
 
 .page {
-  width: 100%;
-  height: fit-content;
+  height: 100%;
 }
 
 .form-group-checkbox {
@@ -25,4 +38,14 @@ table.needs-y-scroll {
 
 input:read-only {
   pointer-events: none;
+}
+
+div.card {
+  padding: 8px;
+  margin: 8px;
+}
+
+.order-item-checkbox {
+  text-align: right;
+  vertical-align: middle;
 }
